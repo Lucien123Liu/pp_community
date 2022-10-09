@@ -1,0 +1,27 @@
+{
+  "name": "pp_community",
+  "version": "1.0.0",
+  "description": "猪猪社区",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon --ext ts,js --exec ts-node server/app.ts"
+  },
+  "author": "77&jj",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.8.3",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.31.8",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "eslint": "^8.0.1",
+    "nodemon": "^2.0.20",
+    "typescript": "*"
+  }
+}
